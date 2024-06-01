@@ -3,7 +3,7 @@ name: golang-pipeline
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main","first-iteration" ]
   pull_request:
     branches: [ "main" ]
 jobs:  
